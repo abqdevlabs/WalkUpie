@@ -75,13 +75,19 @@ WorkPulse is an unobtrusive, native-feeling desktop widget for knowledge workers
 
 ## 6. Technical & Integration Considerations
 
-- **Architecture:** Lightweight desktop shell (Electron, Tauri, or C#/WinUI 3 App SDK).
+- **Architecture:** Lightweight desktop shell WinUI3
 - **Persistence:** Local SQLite / Windows credential store for time logs and configuration.
 - **Power Efficiency:** Low CPU timer tick event (<0.1% CPU consumption during background counting).
 
 ---
 
-## 7. Next Steps & Roadmap
+## 6. Installation
+
+I need Inno setup
+
+---
+
+## 8. Next Steps & Roadmap
 
 1. Complete interactive prototypes for **Overtime Warning State** and **Break/Pause State**.
 2. Design the **Weekly Timesheet / Analytics Drawer**.
